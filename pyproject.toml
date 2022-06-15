@@ -1,11 +1,12 @@
 [tool.poetry]
-name = "python-boilerplate"
-version = "0.1.0"
-description = "A modern python boilerplate."
-authors = ["Your Name <you@example.com>"]
+name = "configcafe"
+version = "0.1.1"
+description = "Welcome to the config cafe!"
+authors = ["J 'Indi' Harrington"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+rich = "^12.4.4"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.2"
@@ -16,3 +17,6 @@ coverage = "^6.4.1"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 79
