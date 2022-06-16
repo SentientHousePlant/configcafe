@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "configcafe"
-version = "0.1.1"
+version = "0.1.2"
 description = "Welcome to the config cafe!"
 authors = ["J 'Indi' Harrington"]
 
